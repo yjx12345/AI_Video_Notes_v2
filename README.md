@@ -62,7 +62,11 @@ Python 3.10+
 
 Node.js 16+
 
-FFmpeg (必须安装并添加到系统环境变量 PATH 中，用于音频提取)
+FFmpeg (必须安装，用于音频提取)
+
+注意：由于 GitHub 文件大小限制，仓库 未包含 bin/ffmpeg.exe 文件。
+
+请自行下载 FFmpeg ([链接](https://ffmpeg.org/download.html#build-windows)，推荐 Windows build)，解压后将 ffmpeg.exe 放入后端的 bin/ 目录中，或者将其添加到系统环境变量 PATH 中。
 
 2. 后端部署
 
@@ -75,6 +79,7 @@ pip install -r requirements.txt
 # 启动服务 (默认端口 1314)
 # 注意：生产环境建议使用 nohup 或 supervisor
 python main.py
+
 
 
 后端服务启动后，会自动初始化 sqlite.db 数据库及相关上传目录。
@@ -92,6 +97,7 @@ npm run dev
 
 # 或者构建生产环境代码
 npm run build
+
 
 
 ⚙️ 配置说明 (Settings)
@@ -172,4 +178,4 @@ A: 尝试刷新页面。如果状态仍未改变，重启后端服务 (main.py)�
 
 📄 许可证
 
-本项目采用 MIT License 开源。
+本项目采用 MIT License 开源
