@@ -1,0 +1,9 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+sqlmodel==0.0.14
+aiofiles==23.2.1
+python-multipart==0.0.6
+httpx==0.26.0
+pydantic-settings==2.1.0
+pyinstaller==6.3.0  # 后续打包用
+tenacity==8.2.3
