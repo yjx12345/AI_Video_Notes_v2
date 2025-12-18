@@ -54,7 +54,7 @@ HTTP 客户端: Axios
 
 🚀 快速开始
 
-1. 环境准备
+# 1. 环境准备
 
 确保您的系统已安装：
 
@@ -68,7 +68,7 @@ FFmpeg (必须安装，用于音频提取)
 
 请自行下载 FFmpeg ([链接](https://ffmpeg.org/download.html#build-windows)，推荐 Windows build)，解压后将 ffmpeg.exe 放入后端的 bin/ 目录中，或者将其添加到系统环境变量 PATH 中。
 
-2. 后端部署
+# 2. 后端部署
 
 # 进入后端目录（假设在根目录）
 cd backend
@@ -84,7 +84,7 @@ python main.py
 
 后端服务启动后，会自动初始化 sqlite.db 数据库及相关上传目录。
 
-3. 前端部署
+# 3. 前端部署
 
 # 进入前端目录
 cd frontend
